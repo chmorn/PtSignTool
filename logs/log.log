@@ -1,0 +1,21 @@
+2021-10-28 14:57:49.168  INFO 38812 --- [main] com.chmorn.PtSignToolApplication         : Starting PtSignToolApplication on chenxu with PID 38812 (D:\Workspaces\Idea\PtSignTool\target\classes started by chenxu in D:\Workspaces\Idea\PtSignTool)
+2021-10-28 14:57:49.168 DEBUG 38812 --- [main] com.chmorn.PtSignToolApplication         : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-10-28 14:57:49.169  INFO 38812 --- [main] com.chmorn.PtSignToolApplication         : No active profile set, falling back to default profiles: default
+2021-10-28 14:57:49.511  INFO 38812 --- [main] com.chmorn.utils.SpringUtil              : ApplicationContext配置成功,applicationContext对象：org.springframework.context.annotation.AnnotationConfigApplicationContext@47af7f3d, started on Thu Oct 28 14:57:49 CST 2021
+2021-10-28 14:57:49.566  INFO 38812 --- [main] com.chmorn.PtSignToolApplication         : Started PtSignToolApplication in 0.687 seconds (JVM running for 1.539)
+2021-10-28 14:57:49.567  INFO 38812 --- [main] com.chmorn.PtSignToolApplication         : 启动完成......
+2021-10-28 15:14:48.297  INFO 13992 --- [main] com.chmorn.PtSignToolApplication         : Starting PtSignToolApplication on chenxu with PID 13992 (D:\Workspaces\Idea\PtSignTool\target\classes started by chenxu in D:\Workspaces\Idea\PtSignTool)
+2021-10-28 15:14:48.297 DEBUG 13992 --- [main] com.chmorn.PtSignToolApplication         : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-10-28 15:14:48.299  INFO 13992 --- [main] com.chmorn.PtSignToolApplication         : No active profile set, falling back to default profiles: default
+2021-10-28 15:14:48.666  INFO 13992 --- [main] com.chmorn.utils.SpringUtil              : ApplicationContext配置成功,applicationContext对象：org.springframework.context.annotation.AnnotationConfigApplicationContext@7714e963, started on Thu Oct 28 15:14:48 CST 2021
+2021-10-28 15:14:48.724  INFO 13992 --- [main] com.chmorn.PtSignToolApplication         : Started PtSignToolApplication in 0.713 seconds (JVM running for 1.524)
+2021-10-28 15:14:48.725  INFO 13992 --- [main] com.chmorn.PtSignToolApplication         : 启动完成......
+2021-10-28 15:19:32.637  INFO 50056 --- [main] com.chmorn.PtSignToolApplication         : Starting PtSignToolApplication on chenxu with PID 50056 (D:\Workspaces\Idea\PtSignTool\target\classes started by chenxu in D:\Workspaces\Idea\PtSignTool)
+2021-10-28 15:19:32.638 DEBUG 50056 --- [main] com.chmorn.PtSignToolApplication         : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-10-28 15:19:32.638  INFO 50056 --- [main] com.chmorn.PtSignToolApplication         : No active profile set, falling back to default profiles: default
+2021-10-28 15:19:32.994  INFO 50056 --- [main] com.chmorn.utils.SpringUtil              : ApplicationContext配置成功,applicationContext对象：org.springframework.context.annotation.AnnotationConfigApplicationContext@6b927fb, started on Thu Oct 28 15:19:32 CST 2021
+2021-10-28 15:19:33.060  INFO 50056 --- [main] com.chmorn.PtSignToolApplication         : Started PtSignToolApplication in 0.707 seconds (JVM running for 1.6)
+2021-10-28 15:19:33.065  INFO 50056 --- [main] com.chmorn.PtSignToolApplication         : 启动完成......
+2021-10-28 15:19:33.068  INFO 50056 --- [main] com.chmorn.schedule.SignSchedule         : 执行定时任务时间: 2021-10-28T15:19:33.068
+2021-10-28 15:19:33.069  INFO 50056 --- [main] com.chmorn.schedule.SignSchedule         : 当天签到结束: 2021-10-28T15:19:33.069
+2021-10-28 15:19:33.069  INFO 50056 --- [main] com.chmorn.schedule.SignSchedule         : ---------我是可爱的分隔线------------------------------------

@@ -1,0 +1,36 @@
+#server:
+#  # 服务器端口
+#  port: 9002
+#  servlet:
+#    # 应用访问路径
+#    context-path: /
+#  tomcat:
+#    # tomcat编码
+#    uri-encoding: utf-8
+#    threads:
+#      # 最大线程数
+#      max: 100
+#      # tomcat 启动初始化线程数
+#      min-spare: 10
+
+# 日志配置
+logging:
+  level:
+    com.chmorn: debug
+    org.springframework: warn
+  file:
+    name: logs/log.log
+
+spring:
+  application:
+    name: PtSignTool
+
+# 配置签到地址
+website:
+  url:
+    ttg: https://totheglory.im/signed.php
+    hdc: https://hdchina.org/plugin_sign-in.php?cmd=signin
+    time: https://www.pttime.org/attendance.php
+    hares: https://club.hares.top/attendance.php
+    lemon: https://lemonhd.org/attendance.php
+
