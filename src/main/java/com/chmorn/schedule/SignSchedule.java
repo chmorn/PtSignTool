@@ -36,32 +36,7 @@ public class SignSchedule {
     //或直接指定时间间隔，例如：5秒
     //@Scheduled(fixedRate=5000)
     private void sign() {
-        try {
-            logger.info("执行定时任务时间: " + LocalDateTime.now());
-            SignUtil signUtil = new SignUtil(globalConfig);
-            //ttg
-            signUtil.signTtg();
-            Thread.sleep(1000 * SLEEPTIME);
-            //hdc
-            signUtil.signHdc();
-            Thread.sleep(1000 * SLEEPTIME);
-            //time
-            signUtil.signTime();
-            Thread.sleep(1000 * SLEEPTIME);
-            //hares
-            signUtil.signHares();
-            Thread.sleep(1000 * SLEEPTIME);
-            //lemon
-            signUtil.signLemon();
-            //
-            Thread.sleep(1000 * SLEEPTIME);
-            signUtil = null;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        logger.info("当天签到结束: " + LocalDateTime.now());
-
-        logger.info("---------我是可爱的分隔线------------------------------------" );
+        oneSign();
     }
 
     public void oneSign(){
